@@ -8,7 +8,7 @@ import { useSectionInView } from "../lib/hooks";
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
   return (
-    <section ref={ref} className="mb-28 scroll-mt-28" id="projects">
+    <section ref={ref} className="scroll-mt-28" id="projects">
       <h2 className="mb-8 text-center text-3xl font-medium capitalize">
         My Projects
       </h2>
@@ -40,15 +40,15 @@ function Project({ title, description, tags, imageUrl }: ProjectsProps) {
       // data-aos="fade-up"
       ref={ref}
       style={{ scale: scaleProgress, opacity: opacityProgress }}
-      className="group mb-3 last:mb-0 sm:mb-8 "
+      className="group mb-3 last:mb-0 sm:mb-8"
     >
-      <section className="relative -z-10 mb-3 max-w-[42rem] overflow-hidden border border-black/5 bg-gray-100 transition last:mb-0 even:pl-8 hover:bg-gray-200 sm:mb-8 sm:h-[20rem] sm:pr-8 sm:group-even:pl-8 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
-        <div className="flex h-full flex-col px-5 py-4 pb-8 pt-4 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-[18rem]">
+      <section className="relative -z-10 mb-3 max-w-[45rem] overflow-hidden border border-black/5 bg-gray-100 transition last:mb-0 even:pl-8 hover:bg-gray-200 sm:mb-8 sm:pr-8 sm:group-even:pl-8 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
+        <div className="flex h-full flex-col px-4 py-8 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="mt-4 flex flex-wrap gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap gap-2 pt-5 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
                 className="rounded-full bg-black/[0.7] px-3 py-1 text-[0.8rem] uppercase tracking-wider text-white dark:text-white/70"

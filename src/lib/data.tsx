@@ -58,44 +58,44 @@ export const links: Link[] = [
 
 export const experiencesData: Experience[] = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering Student",
+    location: "Vietnam - Korea University of Information and Communication Technology (VKU)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently a senior majoring in Software Engineering (Korean-Enhanced Program). Studying core programming, software design, and web development fundamentals with additional Korean language and cultural training to prepare for BrSE-oriented roles.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Developer Intern (BrSE-Oriented Training)",
+    location: "FPT Software Da Nang",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Completed a BrSE-oriented summer internship focusing on both Korean communication and frontend development. Worked in a 3-member team to build a Korean Language Center Management System using ReactJS, Figma, and Git/GitHub. Strengthened collaboration, problem-solving, and UI implementation skills.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Summer 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Career Goal: Bridge System Engineer / Project Manager",
+    location: "Da Nang, Vietnam",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Aiming to become a professional in software development management or bridge system engineering. Continuously enhancing communication, teamwork, and technical abilities through real-world projects and international collaboration experiences.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Future Goal",
   },
 ];
 
 export const projectsData = [
   {
-    title: "Website 1",
+    title: "Portfolio Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    "A personal portfolio website built to showcase my profile, skills, and projects. Focused on creating a clean and responsive UI using ReactJS and TypeScript.",
+    tags: ["ReactJS", "TypeScript", "HTML", "CSS", "Tailwind"],
     imageUrl: web1,
   },
   {
-    title: "Website 2",
+    title: "Korean Language Center Management System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    "A team project developed during my summer internship at FPT Software (2025). The system manages students, courses, and instructors. Designed UI with Figma and implemented the student-side interface using ReactJS and mock data.",
+    tags: ["React", "Tailwind","HTML", "CSS", "Redux"],
     imageUrl: web2,
   },
   {
@@ -120,5 +120,5 @@ export const skillsData: string[] = [
   "Redux",
   "MySQL",
   "Framer Motion",
-  "Java Spring",
+  "MongoDB",
 ] as const;

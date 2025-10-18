@@ -3,6 +3,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "../lib/hooks";
+import avt from "../../public/images/avt_me.jpg";
+import pdf from "../../public/images/myporfolio.pdf";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   return (
@@ -21,7 +23,7 @@ export default function Intro() {
           }}
         >
           <img
-            src="/images/avt_me.jpg"
+            src={avt}
             alt="OhDani portrait"
             width={200}
             height={200}
@@ -35,11 +37,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Tran Thi My Ngoc.</span> I'm a{" "}
-        <span className="font-bold">intern web developer</span> without{" "}
-        <span className="font-bold">any experience</span>. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">ReactJs</span>.
+        Hello, I'm Tran Thi My Ngoc. I'm an intern web developer without any
+        experience.I enjoy building sites & apps. My focus is{" "}
+        <span className="font-semibold">ReactJs</span>.
       </motion.p>
 
       <motion.div
@@ -59,7 +59,7 @@ export default function Intro() {
         </a>
         <a
           className="group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV_OhDani.pdf"
+          href={pdf}
           target="_blank"
         >
           Download CV{" "}

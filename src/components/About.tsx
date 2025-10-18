@@ -13,23 +13,21 @@ export default function About() {
     >
       <h2 className="mb-8 text-3xl font-medium capitalize">About me</h2>{" "}
       <p className="mb-3">
-        I'm currently a student at VietNam-Korea University of Information and
-        Communication technology. I decided to pursue my passion for full-stack
-        web development. I self-taught Kotlin with 3 weeks and ReactJs with 2
-        weeks. My favorite part of programming is UI design and problem-solving
-        aspect. I love the feeling of figuring out a solution to a problem. My
-        core stack is ReactJs, Typescript, Java Spring, mySQL and I'm also
-        familiar with Javascript, Nextjs and Kotlin. I am always looking to
-        learn new technologies and a full-time position as a web developer.
+        I'm a final-year Software Engineering student at the Vietnam–Korea
+        University of Information and Communication Technology (VKU), currently
+        interning at FPT Software Da Nang. My main focus is Frontend Development
+        using ReactJS, and I’m also interested in learning more about project
+        coordination and the Bridge System Engineer (BRSE) role in the future. I
+        enjoy building clean, responsive interfaces and solving problems through
+        code. My core tech stack includes ReactJS, TypeScript, JavaScript, and
+        Git, and I’m familiar with tools like Figma and RESTful API integration.
       </p>
       <p>
-        When <i>I'm not coding</i>, I enjoy listening to music, learning some
-        new languages such as English or Korea and at present, I have an Ielts
-        certificate with 5.0 band. I am considered a team-player because I like
-        to help other and tend to work well within groups. I can also do some
-        mentoring tasks and do code reviewing for other team members. I like
-        helping other and work well with group. I can also do some mentoring
-        tasks and code reviewing for other members.
+        When <i>I’m not coding</i>, I enjoy listening to music and learning
+        languages - I currently hold an <span className="font-semibold">IELTS 5.0</span> and <span className="font-semibold">TOPIK II (Level 3)</span> in Korean.
+        I’m known as a team-oriented person who enjoys collaborating, sharing
+        ideas, and constantly improving both technical and soft skills through
+        real-world experience.
       </p>
     </motion.section>
   );
