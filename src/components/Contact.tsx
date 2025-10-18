@@ -8,7 +8,7 @@ export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.5);
   const formRef = useRef(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     if (!formRef.current) {
@@ -26,7 +26,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("✅ Email sent successfully!");
+          alert("Email sent successfully!");
           // formRef.current.reset(); // clear form
         },
         (error) => {
